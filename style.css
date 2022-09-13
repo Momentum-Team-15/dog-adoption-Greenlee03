@@ -1,14 +1,41 @@
+/* for the gray margins */
+body {
+    margin-top: -.5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgb(200, 200, 200);
+}
+
 /* header */
+
 header {
-    font-size: 25px;
+    font-family: oswald;
+    font-size: 40px;
     color: white;
     background-color: #004175;
     border-bottom: solid medium #89DEEF;
     padding: 20px;
 }
 
-
 /* the dogs */
+
+#middle {
+    background-color: white;
+}
+
+h1 {
+    font-family: oswald;
+    font-size: 3vw;
+    margin: 0px 20px 20px 20px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 1.8vw;
+    font-family: "open sans";
+    margin: 20px;
+}
+
 .alldogs {
     display: flex;
     flex-wrap: wrap;
@@ -16,79 +43,85 @@ header {
 }
 
 .onedog {
-    width: 30%;
+    width: 20vw;
+    margin-bottom: 3vh;
 }
 
 .dogpics {
-    width: 30vw;
-    margin-top: 10%;
+    width: 20vw;
 }
-/* .traitlist{} */
+
+/* for dog names and dog traits */
 
 h3 {
-    margin: 1%;
+    font-family: oswald;
+    font-size: 2vw;
+    margin-top: .1%;
+    margin-bottom: .1%;
 }
 
 .trait {
+    font-family: "open sans";
+    font-size: 1.5vw;
     display: inline-flex;
-    padding: 4px;
-    border-radius: 20px;
-    margin: 2px;
     background-color: #89DEEF;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 2px;
 }
 
 /* the footer */
+
 footer {
-    margin-top: 30px;
     display: flex;
-    justify-content: stretch;
-    justify-content: space-evenly;
-    height: 25vw;
-    font-size: 25px;
+    height: 17vw;
+/* text in footer */
+    font-size: 3vw;
+    font-family: oswald;
     color: white;
 }
+
 .donate {
-    max-width: 33vw;
+    max-width: 22.9vw;
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
     align-items: center;
     background: 
-    linear-gradient(
-        rgba(166, 169, 240, 0.5),
-        rgba(166, 169, 240, 0.5)
-        ), 
-        url(starter_files/images/donate.jpg);
+        linear-gradient(
+            rgba(166, 169, 240, 0.7),
+            rgba(166, 169, 240, 0.7)
+            ), 
+            url(starter_files/images/donate.jpg);
     background-size: cover;
 }
+
 .volunteer {
-    max-width: 33vw;
+    max-width: 22.9vw;
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
     align-items: center;
     background: 
-    linear-gradient(
-        rgba(166, 169, 240, 0.5),
-        rgba(166, 169, 240, 0.5)
-        ), 
-        url(starter_files/images/volunteer.jpg);
+        linear-gradient(
+            rgba(166, 169, 240, 0.7),
+            rgba(166, 169, 240, 0.7)
+            ), 
+            url(starter_files/images/volunteer.jpg);
     background-size: cover;
 }
+
 .location {
-    max-width: 33vw;
+    max-width: 22.9vw;
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
     align-items: center;
     background: 
-    linear-gradient(
-        rgba(166, 169, 240, 0.5),
-        rgba(166, 169, 240, 0.5)
-        ), 
-        url(starter_files/images/location.png);
+        linear-gradient(
+            rgba(166, 169, 240, 0.7),
+            rgba(166, 169, 240, 0.7)
+            ), 
+            url(starter_files/images/location.png);
     background-size: cover;
-}
-body {
-    margin: 0px;
 }
