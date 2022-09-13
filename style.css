@@ -1,0 +1,94 @@
+/* header */
+header {
+    font-size: 25px;
+    color: white;
+    background-color: #004175;
+    border-bottom: solid medium #89DEEF;
+    padding: 20px;
+}
+
+
+/* the dogs */
+.alldogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.onedog {
+    width: 30%;
+}
+
+.dogpics {
+    width: 30vw;
+    margin-top: 10%;
+}
+/* .traitlist{} */
+
+h3 {
+    margin: 1%;
+}
+
+.trait {
+    display: inline-flex;
+    padding: 4px;
+    border-radius: 20px;
+    margin: 2px;
+    background-color: #89DEEF;
+}
+
+/* the footer */
+footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: stretch;
+    justify-content: space-evenly;
+    height: 25vw;
+    font-size: 25px;
+    color: white;
+}
+.donate {
+    max-width: 33vw;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    background: 
+    linear-gradient(
+        rgba(166, 169, 240, 0.5),
+        rgba(166, 169, 240, 0.5)
+        ), 
+        url(starter_files/images/donate.jpg);
+    background-size: cover;
+}
+.volunteer {
+    max-width: 33vw;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    background: 
+    linear-gradient(
+        rgba(166, 169, 240, 0.5),
+        rgba(166, 169, 240, 0.5)
+        ), 
+        url(starter_files/images/volunteer.jpg);
+    background-size: cover;
+}
+.location {
+    max-width: 33vw;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    background: 
+    linear-gradient(
+        rgba(166, 169, 240, 0.5),
+        rgba(166, 169, 240, 0.5)
+        ), 
+        url(starter_files/images/location.png);
+    background-size: cover;
+}
+body {
+    margin: 0px;
+}
